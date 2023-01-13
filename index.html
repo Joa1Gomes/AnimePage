@@ -7,6 +7,7 @@
      <!-- links -->
     <link rel="icon" href="./favicons/favicon-16x16.png">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
     <script defer src="./js/script.js"></script>
 
     <!-- font awesome ink -->
@@ -18,7 +19,7 @@
 <body>
     <!--header-->
     <header>
-        <a href="#" class="logo"><i class="fas fa-moon">Anime</i></a>
+        <a href="#" class="logo"><i class="fas fa-moon"></i>Anime</a>
         <nav class="navigation">
             <a href="#home">Home</a>
             <a href="#animes">Animes</a>
@@ -29,31 +30,227 @@
         <div class="icons">
             <i class="fas fa-bars" id="menu-bars"></i>
             <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            
         </div>
     </header>
 
     <!--home section-->
     <section class="home" id="home">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(images/kakegurui.jpeg) no-repeat;">
+                        <div class="content">
+                            <h3>kakegurui</h3>
+                            <p>Hyaka Academy é um instituto para desenvolvimento
+                                 das habilidades de jogos de azar. Yumeko é uma nova
+                                  aluna que chega com um apetite voraz e pronta para ganhar tudo.</p>
+                            <a href="#" class="btn">Download</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(images/onepiece.jpg) no-repeat;">
+                        <div class="content">
+                            <h3>One Piece</h3>
+                            <p>Em One Piece, conhecemos as aventuras de Monkey D. 
+                            Luffy e sua equipe de piratas, navegando por oceanos 
+                            fantásticos e ilhas exóticas em busca do maior tesouro 
+                            já deixado pelo lendário Gold Roger.</p>
+                            <a href="#" class="btn">Download</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(images/haikyuu.jpg) no-repeat;">
+                        <div class="content">
+                            <h3>Haikyuu!</h3>
+                            <p>Hinata Shoyo, um aluno do ensino médio que sonha em
+                                ser jogador de vôlei depois que assistiu a um campeonato
+                                pela televisão. O grande problema: ele é baixinho, 
+                                e jogar vôlei com a rede daquela altura não será uma tarefa fácil.</p>
+                            <a href="#" class="btn">Download</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(images/yourlieinapril.png) no-repeat;">
+                        <div class="content">
+                            <h3>Your Lie in April</h3>
+                            <p>Um pianista prodígio se torna incapaz de ouvir 
+                                sua própria música após o trauma de perder sua 
+                                amada mãe e professora. Com isso arrancado dele, 
+                                a vida de Kousei Arima se torna monótona e sem brilho.</p>
+                            <a href="#" class="btn">Download</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </section>
+
+     <!--anime section-->
+     <section class="anime" id="anime">
         <h1 class="heading">Animes Populares</h1>
         <div class="swiper anime-slider">
             <div class="swiper-wrapper">
-                <div class="box" style="background: url(image/onepiece.jpg) no-repeat;"></div>
-                <div class="counteudo">
-                    <h3>One Piece</h3>
-                    <p>Em One Piece, conhecemos as aventuras de Monkey D. 
-                    Luffy e sua equipe de piratas, navegando por oceanos 
-                    fantásticos e ilhas exóticas em busca do maior tesouro 
-                    já deixado pelo lendário Gold Roger.</p>
-                    <a href="#" class="btn">Download</a>
+
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(images/thumbs/tokyorevengers.jpg) no-repeat;"></div>
+                        <div class="content">
+                            <h3>Tokyo Revengers</h3>
+                            <p>
+                                No fundo do poço, Takemichi descobre que é possível 
+                                viajar no tempo e salta doze anos de volta para 
+                                seus dias de escola secundária.
+                            </p>
+                            <a href="#" class="btn">Download</a>
+                        </div>
                 </div>
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(images/thumbs/onepunchman.jpg) no-repeat;"></div>
+                        <div class="content">
+                            <h3>One Punchman</h3>
+                            <p>
+                                
+                            </p>
+                            <a href="#" class="btn">Download</a>
+                        </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(images/thumbs/bokunohero.jpg) no-repeat;"></div>
+                        <div class="content">
+                            <h3>Boku no Hero</h3>
+                            <p>
+                                
+                            </p>
+                            <a href="#" class="btn">Download</a>
+                        </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(images/thumbs/swordartonline.jpg) no-repeat;"></div>
+                        <div class="content">
+                            <h3>Sword Art Online</h3>
+                            <p>
+                                
+                            </p>
+                            <a href="#" class="btn">Download</a>
+                        </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(images/thumbs/kenganashura.jpg) no-repeat;"></div>
+                        <div class="content">
+                            <h3>Kengan Ashura</h3>
+                            <p>
+                                
+                            </p>
+                            <a href="#" class="btn">Download</a>
+                        </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(images/thumbs/blackclover.jpg) no-repeat;"></div>
+                        <div class="content">
+                            <h3>Black Clover</h3>
+                            <p>
+                                
+                            </p>
+                            <a href="#" class="btn">Download</a>
+                        </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(images/thumbs/drstone.jpg) no-repeat;"></div>
+                        <div class="content">
+                            <h3>Dr. Stone</h3>
+                            <p>
+                                
+                            </p>
+                            <a href="#" class="btn">Download</a>
+                        </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(images/thumbs/deathnote.jpg) no-repeat;"></div>
+                        <div class="content">
+                            <h3>Death Note</h3>
+                            <p>
+                                
+                            </p>
+                            <a href="#" class="btn">Download</a>
+                        </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(images/thumbs/jujutsukaisen.jpg) no-repeat;"></div>
+                        <div class="content">
+                            <h3>Jujutsu Kaisen</h3>
+                            <p>
+                                
+                            </p>
+                            <a href="#" class="btn">Download</a>
+                        </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(images/thumbs/naruto.jpg) no-repeat;"></div>
+                        <div class="content">
+                            <h3>Naruto</h3>
+                            <p>
+                                
+                            </p>
+                            <a href="#" class="btn">Download</a>
+                        </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(images/thumbs/Haikyu!!.jpg) no-repeat;"></div>
+                        <div class="content">
+                            <h3>Haikyu!!</h3>
+                            <p>
+                                
+                            </p>
+                            <a href="#" class="btn">Download</a>
+                        </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(images/thumbs/kurokobasket.jpg) no-repeat;"></div>
+                        <div class="content">
+                            <h3>Kuroko No Basket</h3>
+                            <p>
+                                
+                            </p>
+                            <a href="#" class="btn">Download</a>
+                        </div>
+                </div>
+
+
+            </div>
+        </div>
+     </section>
+
+    <!--action section-->
+    <section class="anime" id="anime">
+        <h1 class="heading">Filmes de Ação</h1>
+        <div class="swiper action-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slider">
+                    <div class="box" style="background: url(images/thumbs/devilsline.jpg);"></div>
+                        <div class="content">
+                            <h3>Devil's Line</h3>
+                            <p>
+                                Tsukasa, uma estudante universitária, 
+                                é resgatada de um ataque por um demónio, 
+                                um dos muitos vampiros que podem misturar-se entre a população humana.
+                            </p>
+                            <a href="#" class="btn">Download</a>
+                        </div>
+                </div>
+           
+           
+           
+           
+           
             </div>
         </div>
 
 
-
-
     </section>
-
 
 </body>
 </html>
